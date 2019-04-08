@@ -76,6 +76,26 @@ programmable through the Native USB port.
 
 ## Technical Specifications
 
+### M0
+
+-   Measures 80mm X 32mm x 8mm
+
+-   ATSAMD21G18 32-bit ARM MCU @48MHz
+
+-   Native USB port for programming and debugging
+
+-   Contains 2 motor control ports
+
+-   3.3V operating voltage
+
+-   5 - 12V recommended input voltage
+
+-   2A Max output current per motor port
+
+-   Reset and Erase Button
+
+### M3
+
 -   Measures 100mm X 59.5mm x 8mm
 
 -   AT91SAM3X8E 32-bit ARM MCU @84MHz
