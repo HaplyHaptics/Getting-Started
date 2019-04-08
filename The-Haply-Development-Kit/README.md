@@ -52,7 +52,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x 3D Printed Motor Stand  
 • 1x Screw Set  
 
-Haply Board (Version 0.3) 
+Haply Board
 =================================
 
 <img src="media/image000a.JPG" width="400"> <img src="media/image000b.JPG" width="400">
@@ -62,14 +62,14 @@ Haply Board (Version 0.3)
 The Haply board is a highly robust and configurable open-source
 platform ideal for haptic and robotic development.
 
-Based on the Arduino Due, the Haply board uses the 32-bit AT91SAM3X8E
-ARM microcontroller as its core. Side rail pin connections are
+Based on the Arduino framework, both Haply boards use the  32-bit AT91SAM3X8E
+ARM microcontroller as their core. Side rail pin connections are
 maintained giving the Haply board compatibility to a majority of
 available Arduino Shields.
 
-Two L298P Motor drivers are incorporated into the board, allowing the
+L298P Motor drivers are incorporated into the board, allowing the
 Haply board the ability to precisely control up to four DC
-motors.
+motors (2 motors for the M0 board).
 
 The Haply board is fully compatible with the Arduino IDE and
 programmable through the Native USB port.
@@ -94,7 +94,7 @@ programmable through the Native USB port.
 
 **Warning: MCU I/O pins have maximum tolerated voltage of 3.3V**
 
-# Haply Dev Kit Assembly Instructions (V2.0)
+# Haply Dev Kit Assembly Instructions
 
 
 ## Haply Development Kit Contents  
