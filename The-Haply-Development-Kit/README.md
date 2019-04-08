@@ -25,8 +25,8 @@ Using the hAPI or Haply API, and with a myriad of example projects and
 detailed setup tutorials available, the kit allows you to quickly start
 developing your own haptic applications.
 
-With design expansion in mind, the Haply Control Board is capable of
-controlling up to up to 4 motors. Allowing experienced users to develop
+The Haply M3 board is capable of controlling up to up to 4 motors, and the 
+M0 board is capable of controlling 2. Experienced users will be able to develop
 their own unique designs ranging from 1-degree-of-freedom to
 4-degree-of-freedom haptic devices.
 
@@ -38,7 +38,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x Board Case Top  
 • 2x Development Board Extension Wires  
 • 1x End Effector and Arm Assembly Screws   
-• 1x Haply Control Board  
+• 1x Haply Board  
 • 1x Large and Small Allen Keys  
 • 2x Motors  
 • 1x Power Supply  
@@ -52,14 +52,16 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x 3D Printed Motor Stand  
 • 1x Screw Set  
 
-Haply Control Board (Version 0.3) 
+Haply Board (Version 0.3) 
 =================================
+
+<img src="media/image000a.jpg" width="500">
 
 <img src="media/image000b.jpg" width="500">
 
 ## Overview
 
-The Haply control board is a highly robust and configurable open-source
+The Haply board is a highly robust and configurable open-source
 platform ideal for haptic and robotic development.
 
 Based on the Arduino Due, the Haply board uses the 32-bit AT91SAM3X8E
@@ -68,10 +70,10 @@ maintained giving the Haply board compatibility to a majority of
 available Arduino Shields.
 
 Two L298P Motor drivers are incorporated into the board, allowing the
-Haply control board the ability to precisely control up to four DC
+Haply board the ability to precisely control up to four DC
 motors.
 
-The Haply control board is fully compatible with the Arduino IDE and
+The Haply board is fully compatible with the Arduino IDE and
 programmable through the Native USB port.
 
 ## Technical Specifications
@@ -117,7 +119,7 @@ programmable through the Native USB port.
 14. 1x Acrylic plate
 15. 1x Board Case Bottom
 16. 1x 3D printed Base
-17. 1x Haply control Board
+17. 1x Haply Board
 18. 1x 3D printed end effector
 19. 1x Screw Set  
         • 2x 2-56 screws (Motor stand)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  •  4x M2 screws (Motors)  
@@ -273,22 +275,22 @@ finally screw in the end-effector screw to complete this section.
  
  ------------------------------------------------------------------------------------
 
-## Part F: Haply Control Board Installation 
+## Part F: Haply Board Installation 
 
 <img src="media/image021.jpg" width="400">
 
 **Section parts List:**
 
 -   1x Completed assembly from previous section 
--   1x Haply control board  
+-   1x Haply board  
 -   2x Dev board extension wires 
 -   1x Board Case Top
 -   1x Board Case Bottom
 -   4x 2-56 screws 
 
-1.  Connect the dev board extension wires to the Haply control board as shown in the picture.
+1.  Connect the dev board extension wires to the Haply board as shown in the picture.
 
-2. Lay the Haply control board upside down the case such that the wires extend from the open side of the case. All motor ports should be accessible.
+2. Lay the Haply board upside down the case such that the wires extend from the open side of the case. All motor ports should be accessible.
 
 <img src="media/image022.jpg" width="400">   <img src="media/image023.jpg" width="400">
 
