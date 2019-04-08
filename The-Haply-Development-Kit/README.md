@@ -55,7 +55,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 Haply Board (Version 0.3) 
 =================================
 
-<img src="media/image000a.JPG" width="500"> <img src="media/image000b.JPG" width="500">
+<img src="media/image000a.JPG" width="400"> <img src="media/image000b.JPG" width="400">
 
 ## Overview
 
