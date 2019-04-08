@@ -1,2 +1,2 @@
 # Getting-Started
-You're first place to look after receiving your Haply Kit 
+Your first place to look after receiving your Haply Kit 
