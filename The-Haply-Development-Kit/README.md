@@ -76,6 +76,8 @@ programmable through the Native USB port.
 
 ## Technical Specifications
 
+**Warning: MCU I/O pins have maximum tolerated voltage of 3.3V**
+
 ### M0
 
 -   Measures 80mm X 32mm x 8mm
@@ -111,8 +113,6 @@ programmable through the Native USB port.
 -   2A Max output current per motor port
 
 -   Reset and Erase Button
-
-**Warning: MCU I/O pins have maximum tolerated voltage of 3.3V**
 
 # Haply Dev Kit Assembly Instructions
 
