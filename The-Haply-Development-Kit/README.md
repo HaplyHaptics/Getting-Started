@@ -1,7 +1,7 @@
 # The Haply Development Kit
 
 
-<img src="media/HaplyKit.JPG" width="400"> <img src="media/Haplybox.JPG" width="400">
+<img src="media/Haplybox.JPG" width="600">
 
 ## Introduction
 
@@ -320,7 +320,7 @@ finally screw in the end-effector screw to complete this section.
 
 *** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
 
-<img src="media/image023a.JPG" width="400">  <img src="media/image025a.JPG" width="400">
+<img src="media/image023a.JPG" height="400">  <img src="media/image025a.JPG" height="400">
     
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 
@@ -349,7 +349,7 @@ finally screw in the end-effector screw to complete this section.
 
 Although not a part of assembly, the power supply and micro USB cable are attached as shown below
 
-<img src="media/image029.jpg" height="400">  <img src="media/image030.jpg" height="400">
+<img src="media/image029.jpg" width="400">  <img src="media/image030.jpg" width="400">
 
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 
