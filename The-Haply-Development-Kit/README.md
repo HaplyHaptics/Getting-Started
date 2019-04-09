@@ -349,7 +349,7 @@ finally screw in the end-effector screw to complete this section.
 
 Although not a part of assembly, the power supply and micro USB cable are attached as shown below
 
-<img src="media/image029.jpg" width="400">  <img src="media/image030.jpg" width="400">
+<img src="media/image029.jpg" height="400">  <img src="media/image030.jpg" height="400">
 
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 
