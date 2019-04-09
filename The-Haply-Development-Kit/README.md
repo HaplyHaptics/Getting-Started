@@ -320,7 +320,7 @@ finally screw in the end-effector screw to complete this section.
 
 *** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
 
-<img src="media/image023a.JPG" height="400">  <img src="media/image025a.JPG" height="400">
+<img src="media/image023a.JPG" height="200">  <img src="media/image025a.JPG" height="200">
     
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 
