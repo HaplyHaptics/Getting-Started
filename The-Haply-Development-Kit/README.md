@@ -1,7 +1,7 @@
 # The Haply Development Kit
 
 
-<img src="media/Image000.png" width="700">
+<img src="media/HaplyKit.JPG" width="400"> <img src="media/Haplybox.JPG.JPG" width="400">
 
 ## Introduction
 
@@ -317,6 +317,10 @@ finally screw in the end-effector screw to complete this section.
 2. Attach the dev board extension wires as pictured. This will ensure correct function of the Haply software.
 
 <img src="media/image024.jpg" width="400"> <img src="media/image025.jpg" width="400">
+
+*** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
+
+<img src="media/image023a.jpg" width="400"><img src="media/image024a.jpg" width="400"> <img src="media/image025b.jpg" width="400">
     
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 

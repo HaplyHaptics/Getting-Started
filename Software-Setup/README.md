@@ -278,7 +278,7 @@ Haptic Simulation
     starting, make sure the Haply device is in the initial starting
     position:
 
-    <img src="media/image010.png" width="500"> 
+    <img src="media/image010.JPG" width="500"> 
      
 
 2.  Now click the Run button on the Processing sketch to start the
