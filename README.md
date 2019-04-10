@@ -18,7 +18,8 @@ key tools for using the Haplet.
 - [C++](https://github.com/HaplyHaptics/Haply-API-cpp)
 - [C# (Unity)](https://github.com/HaplyHaptics/UnityHAPI)
 
-#### [Firmware](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions)
+#### Firmware
+- [Arduino](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions)
 
 #### SDK
 - [Chai3D](https://github.com/HaplyHaptics/chai3d)
