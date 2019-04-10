@@ -16,7 +16,7 @@ key tools for using the Haplet.
 #### APIs
 - [Java (Processing)](https://github.com/HaplyHaptics/Haply_API-Java)
 - [C++](https://github.com/HaplyHaptics/Haply-API-cpp)
-- [C#](https://github.com/HaplyHaptics/UnityHAPI)
+- [C# (Unity)](https://github.com/HaplyHaptics/UnityHAPI)
 
 #### [Firmware](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions)
 
