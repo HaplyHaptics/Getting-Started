@@ -9,8 +9,8 @@ key tools for using the Haplet.
 
 ## Structure
 ### Hardware
-- [Mechanical](https://github.com/HaplyHaptics/Mechanical-Drawings)
-- [Electrical](https://github.com/HaplyHaptics/Electrical-Schematics)
+- [Mechanical](https://github.com/HaplyHaptics/Hardware/tree/master/Mechanical-Drawings)
+- [Electrical](https://github.com/HaplyHaptics/Hardware/tree/master/Electrical-Schematics)
 
 ### Software
 #### APIs
