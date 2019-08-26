@@ -16,7 +16,3 @@ key tools for using the Haplet.
 
 #### Firmware
 - [Arduino](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions)
-
-#### SDK
-- [Chai3D](https://github.com/HaplyHaptics/chai3d)
- 
