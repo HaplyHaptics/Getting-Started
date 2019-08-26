@@ -15,3 +15,4 @@ key tools for using the Haplet.
 
 #### Firmware
 - [Arduino](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions)
+- [Low Level Lessons](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions/tree/master/Low-Level-Demos)
