@@ -3,9 +3,8 @@
 Your first place to look after receiving your Haply Kit!
 
 ## Setup
-For instructions on how to assemble the Haplet, see [The-Haply-Development-Kit](/The-Haply-Development-Kit)
-
-See [Software-Setup](/Software-Setup) for instructions on installing the Arduino IDE and Processing,
+- [The-Haply-Development-Kit](/The-Haply-Development-Kit) - instructions for assembling the Haplet
+- [Software-Setup](/Software-Setup) - instructions for installing the Arduino IDE and Processing,
 key tools for using the Haplet.
 
 ### Software
