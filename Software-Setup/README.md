@@ -183,8 +183,7 @@ Processing Environment.
 Processing Sketch
 =================
 
-1.  Open up the .pde Processing sketch file in the Processing IDE from
-    one of the Example projects. Before starting an example, you may
+1.  Open up a .pde Processing sketch file from one of the Example projects in the Java repository. Before starting an example, you may
     need to explicitly specify the Serial USB port that is being used.
     In the 'setup' portion of the sketch file, find the line defining a
     new instance of the board object:
