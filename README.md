@@ -2,6 +2,8 @@
 
 Your first place to look after receiving your Haply Kit!
 
+If you're here to build teaching content using the Haplet we recommend you explore the Java API repository for using Processing, or the Low Level Lessons repository for learning the basics of Haptic firmware. If you have any questions, contact us at info@haply.co
+
 ## Setup
 - [The Haply Development Kit](/The-Haply-Development-Kit) - instructions for assembling the Haplet
 - [Software Setup](/Software-Setup) - instructions for installing the Arduino IDE and Processing,
