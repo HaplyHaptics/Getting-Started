@@ -23,8 +23,8 @@ for the Windows Operating System.
     Windows Installer option. For other OS users, please download the
     relevant version for your computer.
 
-<img src="media/image0001.png" width="500"> 
- 
+<img src="media/image0001.png" width="500">
+
 
 2.  After the installer have finished, we now need to install the proper
     processor core used by the Haply Development Board. Open the Arduino
@@ -36,7 +36,7 @@ for the Windows Operating System.
     Board selections for Arduino Due (Programming Port) and Arduino Due
     (Native USB Port) are already available.
 
-> <img src="media/image0002.png" width="500"> 
+> <img src="media/image0002.png" width="500">
 >  
 
 1.  Once the Boards Manager window is open, select the "Arduino SAM
@@ -47,8 +47,8 @@ for the Windows Operating System.
 
     **\*Note**: This step may be skipped for Mac users
 
-    <img src="media/image0003.png" width="500"> 
-     
+    <img src="media/image0003.png" width="500">
+
 
 2.  After installing the Arduino IDE and setting up the Arduino SAM
     Boards core support, you can now connect your Haply Development
@@ -78,19 +78,19 @@ for the Windows Operating System.
     connected to your computer, the Haply Development Board during the
     driver installation.
 
-    <img src="media/image0004.png" width="500"> 
-     
+    <img src="media/image0004.png" width="500">
+
 
 3.  Right click on the listing and select "Update Driver Software"
 
-    <img src="media/image0005.png" width="500"> 
-     
+    <img src="media/image0005.png" width="500">
+
 
 4.  This will open the "Update Driver Software" window, click the option
     "Browse my computer for driver software."
 
-    <img src="media/image0006.png" width="500"> 
-     
+    <img src="media/image0006.png" width="500">
+
 
 5.  This will bring you to a new window where you can select a specific
     directory for installation. Click the "Browse" button and navigate
@@ -102,29 +102,13 @@ for the Windows Operating System.
     with a warning dialog about the software not passing Windows Logo
     test click "Continue Anyway" option.
 
-    <img src="media/image0007.png" width="500"> 
-     
+    <img src="media/image0007.png" width="500">
+
 
 6.  Once the drivers have finished installing, you should now see the
     listing in "Ports (COM & LPT)" be displayed similar to "Arduino Due
     (COM18)." The COM numbers will change depending on the number of
     Serial devices that had been connected to your computer previously.
-
-### Installing Arduino Libraries
-
-Before you can load firmware onto the Haply Development Board, you need
-to install some Arduino Library dependencies that the firmware uses.
-
-1.  In the folder "Libraries", found in this repository, locate and download the two
-    .zip files Encoder and PWM. 
-
-2.  Navigate to the Arduino default working directory by going to
-    Documents \> Arduino \> libraries. Unzip and copy the two folders Encoder and
-    PWM into the "libraries" directory. 
-
-3.  You can now open the Haply firmware file, verify that it builds with
-    no errors and upload the program onto the Haply Development Board.
-
 
 # Installing the Processing IDE
 
@@ -145,64 +129,13 @@ Processing Environment.
     version of Processing. Not doing so will result in simulation slow
     down's and add to instabilities.
 
-    <img src="media/image001.png" width="500"> 
-     
+    <img src="media/image001.png" width="500">
+
 
 2.  Once installation has finished please open the Processing IDE.
 
-## Installing Processing Contribution Libraries
+# Arduino Firmware
 
-1.  Contributed Libraries that are developed by the Processing community
-    are needed to run a haptic simulation. Currently only the
-    CountdownTimer library developed by Dong Hyun Choi is used. This
-    section can be used to add any supported Contribution library from
-    Processing. To Install the CountdownTimer library, click the Sketch
-    tab and navigate to Sketch \> Import Library \> Add Library.
-
-<img src="media/image002.png" width="500">   
-
-2.  This will bring up the "Contribution Manager" window. In the search
-    bar, type in "CountdownTimer" and select the CountdownTimer by Dong
-    Hyun Choi to install.
-
-    <img src="media/image003.png" width="500"> 
-     
-
-## Installing the Haply API Library
-
-1.  Although the hAPI library is included in every example project, you
-    may find the need to include the hAPI library again. This guide can
-    be used to add any additional specialized libraries in the future.
-    Click the Sketch tab and navigate to Sketch \> Add File.
-
-    <img src="media/image004.png" width="500"> 
-     
-
-2.  This will open a file selection window. A version of the hAPI is
-    included in every example Processing project, it is recommended that
-    you make a copy of the hAPI in your local directory. Navigate to
-    your directory with a copy of the hAPI and select the file hAPI.jar.
-
-    <img src="media/image005.png" width="500"> 
-     
-
-3.  By including the library file, Processing will create a new folder
-    called "code" in your project directory, the hAPI library has been
-    included in your project.
-
-# Getting Started
-
-Before you begin
-================
-
-1.  This guide is designed to help you get a 2D force-feedback haptic
-    simulation up and running as quickly as possible using the Haply
-    development kit's pantograph device. Before you begin, please follow
-    the instruction manuals for constructing the Haply device, install
-    software and libraries, and download the example projects.
-
-Arduino Firmware 
-=================
 
 1.  We will first load the Arduino firmware onto the Haply
     microcontroller board. The firmware interprets commands sent from
@@ -214,13 +147,13 @@ Arduino Firmware
     to the computer through the Arduino Native port using a micro-USB
     cable.
 
-3.  Open the Arduino sketch "Haply\_Arduino\_Firmware.ino." After the
+3.  Open the Arduino sketch containing the appropriate firmware for your      board.  After the
     sketch is open in the Arduino IDE, select the 'Tools' tab at the top
     and then select the 'Board' option. Choose the option 'Arduino Due
     (Native USB Port)' as seen below:
 
-    <img src="media/image006.png" width="500"> 
-     
+    <img src="media/image006.png" width="500">
+
 
 4.  Next we will specify the port selection so that the Arduino IDE
     knows which port the Haply Board uses to connect to the computer.
@@ -235,8 +168,8 @@ Arduino Firmware
 
     Mac: "/dev/cu.usbmodem1411"
 
-    <img src="media/image007.png" width="500"> 
-     
+    <img src="media/image007.png" width="500">
+
 
 5.  Finally, we are ready to upload the Haply firmware onto the Haply
     Board. Press the upload button near the top. This will compile the
@@ -244,8 +177,8 @@ Arduino Firmware
     Board. Once the upload is finished you should see the following
     confirmation screen stating that the upload was successful:
 
-    <img src="media/image008.png" width="500"> 
-     
+    <img src="media/image008.png" width="500">
+
 
 Processing Sketch
 =================
@@ -256,18 +189,22 @@ Processing Sketch
     In the 'setup' portion of the sketch file, find the line defining a
     new instance of the board object:
 
-    <img src="media/image009.png" width="500"> 
-     
+    <img src="media/image009.png" width="500">
+
 
 2.  Change the board declaration to the specific Serial USB port used by
     the Haply Board as determined from the previous section. For
-    different operating systems, this will look like:
+    different operating systems, this will look something like:
 
     Windows: haplyBoard = new Board(this, "COM10", 0);
 
     Linux: haplyBoard = new Board(this, "/dev/ttyUSB0", 0);
 
     Mac: haplyBoard = new Board(this, "/dev/cu.usbmodem1411", 0);
+
+    To know which port to select, or which number to place in Serial.list()[x] where x is the port declaration, you can run the following line of code to have all possible ports print into the console. Remember that when selecting the port, that counting begins at 0.
+
+    println(Serial.list());
 
 Haptic Simulation
 =================
@@ -278,29 +215,29 @@ Haptic Simulation
     starting, make sure the Haply device is in the initial starting
     position:
 
-    <img src="media/image010.JPG" width="500"> 
-     
+    <img src="media/image010.JPG" width="500">
+
 
 2.  Now click the Run button on the Processing sketch to start the
     haptic simulation. In this example we are running a basic virtual
     wall simulation (Hello Wall):
 
-    <img src="media/image011.png" width="500"> 
-     
+    <img src="media/image011.png" width="500">
 
 
-			The Haply project is intended to provide novice designers and developers 
-			a platform from which to explore the field of haptics. The Haptics Application 
-			Programming Interface (hAPI) is a modular tool that lets users quickly assemble 
+
+			The Haply project is intended to provide novice designers and developers
+			a platform from which to explore the field of haptics. The Haptics Application
+			Programming Interface (hAPI) is a modular tool that lets users quickly assemble
 			a variety of haptic robots, ranging from one to four degrees of freedom, using
 			the same set of hardware and programming tools. We hope people will be inspired
-			to build new tools to interface with the hAPI and share them with the community. 
-			
+			to build new tools to interface with the hAPI and share them with the community.
+
 			If you have any questions or concerns please contact us at haplyrobotics@gmail.com
-			
-			Enjoy! 
-			
-			
+
+			Enjoy!
+
+
 			Copyright (C) <2017>  <The Haply Project: Colin Gallacher & Steven Ding>
 
 			This program is free software: you can redistribute it and/or modify
@@ -315,6 +252,3 @@ Haptic Simulation
 
 			You should have received a copy of the GNU General Public License
 			along with this program.  If not, see <http://www.gnu.org/licenses/>.
-			
-			
-
