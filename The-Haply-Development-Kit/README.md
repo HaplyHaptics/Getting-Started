@@ -32,7 +32,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 
 ## Kit Contents
    
-• 1x Acrylic Plate  
+• 1x Acrylic Plate*    
 • 2x Acrylic L2 Arm Linkages  
 • 1x Board Case Bottom  
 • 1x Board Case Top  
@@ -45,12 +45,14 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x Micro USB Cable  
 • 4x Suction Cup Feet  
 • 1x Wire Adapter Board  
-• 1x 3D Printed Base  
+• 1x 3D Printed Base*  
 • 1x 3D Printed End Effector  
 • 2x 3D Printed L1 Arm Linkages  
 • 1x 3D Printed Motor Housing  
 • 1x 3D Printed Motor Stand  
 • 1x Screw Set  
+
+*depending on when you ordered your kit, these two components will already be attached
 
 Haply Board
 =================================
@@ -141,10 +143,12 @@ programmable through the Native USB port.
 18. 1x 3D printed end effector
 19. 1x Screw Set  
         • 2x 2-56 screws (Motor stand)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  •  4x M2 screws (Motors)  
-        • 3x 2-56 screws (Acrylic Plate) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   • 2x 2-56 screws black (Wire adapter board)  
-        • 4x 2-56 screws (Board Case)       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  • 1x ¾" 4-40 screw (Motor stand)  
+        • 3x 2-56 screws (Acrylic Plate)**   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   • 2x 2-56 screws black (Wire adapter board)  
+        • 4x 2-56 screws (Board Case)***       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  • 1x ¾" 4-40 screw (Motor stand)  
         • 2x 4-40 set screws black (Arm linkages)  
 
+** if the acrylic plate and 3D printed base are already attached, this set of screws aren't needed and wont be included  
+*** If you ordered an M0 board, the case only requires one 2-56 screw. Only one will be included.
   
 Device Assembly
 ===============
