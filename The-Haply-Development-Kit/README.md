@@ -5,34 +5,28 @@
 
 ## Introduction
 
-
-The Haply development kit is a robust and adaptable open-source hardware
+The Haply Development Kit is a robust and adaptable open-source hardware
 development platform for haptic applications. Designed to be accessible
 to novices and experts alike, the kit allows you to quickly setup and
 interact with a haptic simulation using a 2-degree-of-freedom pantograph
-device.
+device. Instructions below will take you through assembly of the device.
 
 Visit [www.haply.co](http://www.haply.co) for more information
 
 ## Kit Overview
 
-
 The Haply development kit contains all the mechanical and electrical
 components needed to construct your own 2-degree-of-freedom pantograph
 device.
 
-Using the hAPI or Haply API, and with a myriad of example projects and
-detailed setup tutorials available, the kit allows you to quickly start
-developing your own haptic applications.
-
-The Haply M3 board is capable of controlling up to up to 4 motors, and the 
+The Haply M3 board is capable of controlling up to up to 4 motors, and the
 M0 board is capable of controlling 2. Experienced users will be able to develop
 their own unique designs ranging from 1-degree-of-freedom to
 4-degree-of-freedom haptic devices.
 
 ## Kit Contents
-   
-• 1x Acrylic Plate*    
+
+• 1x Acrylic Plate**    
 • 2x Acrylic L2 Arm Linkages  
 • 1x Board Case Bottom  
 • 1x Board Case Top  
@@ -45,14 +39,14 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x Micro USB Cable  
 • 4x Suction Cup Feet  
 • 1x Wire Adapter Board  
-• 1x 3D Printed Base*  
+• 1x 3D Printed Base**  
 • 1x 3D Printed End Effector  
 • 2x 3D Printed L1 Arm Linkages  
 • 1x 3D Printed Motor Housing  
 • 1x 3D Printed Motor Stand  
 • 1x Screw Set  
 
-*depending on when you ordered your kit, these two components will already be attached
+** Depending on when you ordered your kit, these two components will already be attached
 
 Haply Board
 =================================
@@ -132,10 +126,10 @@ programmable through the Native USB port.
 7.   1x Board Case Top              
 8.   2x 3D printed L1 arm linkages   
 9.   2x Acrylic L2 arm linkages      
-10. Large and small Allen Keys 
+10. Large and small Allen Keys
 11. End effector and arm assembly screws
 12. 2x Dev board extension wires
-13. 1x Wire adapter board 
+13. 1x Wire adapter board
 14. 1x Acrylic plate
 15. 1x Board Case Bottom
 16. 1x 3D printed Base
@@ -147,9 +141,9 @@ programmable through the Native USB port.
         • 4x 2-56 screws (Board Case)***       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  • 1x ¾" 4-40 screw (Motor stand)  
         • 2x 4-40 set screws black (Arm linkages)  
 
-** if the acrylic plate and 3D printed base are already attached, this set of screws aren't needed and wont be included  
+** If the acrylic plate and 3D printed base are already attached, this set of screws aren't needed and wont be included  
 *** If you ordered an M0 board, the case only requires one 2-56 screw. Only one will be included.
-  
+
 Device Assembly
 ===============
 
@@ -167,7 +161,7 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 <img src="media/image001b.JPG" width="600">
 
   ------------------------------------------------------------------------------------ -----------------------------------------------------------------------------------     
-  
+
 
 ## Part A: Motor Housing Assembly
 
@@ -184,17 +178,17 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 
 2.  Align the holes from the motor housing with the screw holes on the
     motors and use two M2 screws to fix each motor to the motor housing using a Philips head screwdriver.
-    
+
     <img src="media/image004.jpg" width="400"> <img src="media/image003.jpg" width="400">  
 
 ## Part B: L1 Arm Linkage Assembly
 
-<img src="media/image005.jpg" width="400"> 
+<img src="media/image005.jpg" width="400">
 
 **Section parts List:**
 
 -   1x Completed assembly from previous section   
--   2x 4-40 set screws 
+-   2x 4-40 set screws
 -   2x 3D printed L1 arm linkages
 
 1.  Insert the 4-40 set screws part way into both of the L1 arm
@@ -212,10 +206,10 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 
 ## Part C: Motor Stand Assembly
 
- <img src="media/image008.jpg" width="400"> 
- 
+ <img src="media/image008.jpg" width="400">
+
  **Section parts List:**   
- 
+
  -   1x Completed assembly from previous section
  -   1x 3D printed motor stand
  -   1x Wire adapter board
@@ -234,18 +228,18 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 1.  Attach the ¾" 4-40 screw in the front using the flathead screwdriver. The 4-40 screw will go through the motor stand into the small hole on the motor housing.
 
 
-<img src="media/image011.jpg" width="400"> 
+<img src="media/image011.jpg" width="400">
 
 ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
 ## Part D: L2 Arm Linkage Assembly
 
-<img src="media/image012.jpg" width="400"> 
+<img src="media/image012.jpg" width="400">
 
 **Section parts List:**
 
 -   1x Completed assembly from previous section
--   2x L2 arm linkages 
+-   2x L2 arm linkages
 -   2x Plastic joints assembly
 -   1x End-effector handle assembly
 
@@ -261,7 +255,7 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 
 2.  Make sure the second L2 arm is installed on the opposite side
     compared to the first.
-    
+
 3. On the opposite side of the assembly, place the L1 arm under the L2 arm so that the end of one L2 arm linkage is below the other. This will allow for mounting of the end effector.
 
 
@@ -271,8 +265,8 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 end-effector handle washer between the two L2 arm linkages and
 finally screw in the end-effector screw to complete this section.
 
-  <img src="media/image017.jpg" width="400"> 
-  
+  <img src="media/image017.jpg" width="400">
+
   ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
 
@@ -294,21 +288,21 @@ finally screw in the end-effector screw to complete this section.
 2.  Screw the assembly into the top plate on both sides.
 
  <img src="media/image020.jpg" width="400">
- 
+
  ------------------------------------------------------------------------------------
 
-## Part F: Haply Board Installation 
+## Part F: Haply Board Installation
 
 <img src="media/image021.jpg" width="400">
 
 **Section parts List:**
 
--   1x Completed assembly from previous section 
+-   1x Completed assembly from previous section
 -   1x Haply board  
--   2x Dev board extension wires 
+-   2x Dev board extension wires
 -   1x Board Case Top
 -   1x Board Case Bottom
--   4x 2-56 screws 
+-   4x 2-56 screws
 
 1.  Connect the dev board extension wires to the Haply board as shown in the picture.
 
@@ -325,7 +319,7 @@ finally screw in the end-effector screw to complete this section.
 *** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
 
 <img src="media/image023a.JPG" height="300">  <img src="media/image025a.JPG" height="300">
-    
+
 ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------
 
 ## Part G: Base Plate Assembly
@@ -336,7 +330,7 @@ finally screw in the end-effector screw to complete this section.
 
  -   1x Completed assembly from previous section
  -   1x Acrylic bottom plate
- -   4x Suction cup feet 
+ -   4x Suction cup feet
 
 
 1.  Place the bottom plate and screw in each of the suction cup feet.
@@ -361,18 +355,18 @@ Although not a part of assembly, the power supply and micro USB cable are attach
 **The completed Haply Development Kit**
 
 
-    The Haply project is intended to provide novice designers and developers 
-	a platform from which to explore the field of haptics. The Haptics Application 
-	Programming Interface (hAPI) is a modular tool that lets users quickly assemble 
+    The Haply project is intended to provide novice designers and developers
+	a platform from which to explore the field of haptics. The Haptics Application
+	Programming Interface (hAPI) is a modular tool that lets users quickly assemble
 	a variety of haptic robots, ranging from one to four degrees of freedom, using
 	the same set of hardware and programming tools. We hope people will be inspired
-	to build new tools to interface with the hAPI and share them with the community. 
-	
+	to build new tools to interface with the hAPI and share them with the community.
+
 	If you have any questions or concerns please contact us at haplyrobotics@gmail.com
-	
-	Enjoy! 
-	
-	
+
+	Enjoy!
+
+
     Copyright (C) <2017>  <The Haply Project: Colin Gallacher & Steven Ding>
 
     This program is free software: you can redistribute it and/or modify
@@ -387,6 +381,3 @@ Although not a part of assembly, the power supply and micro USB cable are attach
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-	
-	
-

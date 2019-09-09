@@ -1,228 +1,69 @@
 # Haply Software Setup
-## Arduino Installation
 
-### Installing the Arduino IDE
+## Introduction
+Here we'll take you through the software that you'll use with the Haply Development Kit. There are two primary softwares we'll be using in this demo -
 
-This manual provides a step-by-step guide on installing the Arduino IDE,
-setting up the ARM based microcontroller core support for the Arduino
-IDE, and installing library dependencies needed for motor control and
-haptic simulations. The Haply Development Board is based on the Arduino
-Due core, and uses software support from Arduino.
+- Arduino IDE - Integrated Development Environment used for managing firmware
+- Processing - An Open-Source Graphical Library for creating haptic sketches alongside the Haply Java API
 
-This section is divided into two sections, General Steps which applies
-to all Operating Systems, and steps required to properly install drivers
-for the Windows Operating System.
-
-### General Steps
--------------
+## Arduino IDE Installation
 
 1.  Download and install the Arduino IDE from the main Arduino software
-    site: <https://www.arduino.cc/en/Main/Software>. In the download
-    options, please download the local IDE rather than the online IDE.
-    For Windows users, installation is easiest and quickest using the
-    Windows Installer option. For other OS users, please download the
-    relevant version for your computer.
+    site: <https://www.arduino.cc/en/Main/Software>. For Windows users, installation is easiest and quickest using the Windows Installer option. For other OS users, download the relevant version for your computer.
 
-<img src="media/image0001.png" width="500">
+<img src="media/image1.png" width="500">
 
-
-2.  After the installer have finished, we now need to install the proper
-    processor core used by the Haply Development Board. Open the Arduino
+2.  After the install is complete, we now need to install the proper
+    processor core used by the Haply Board. Open the Arduino
     IDE, and navigate to the Boards Manager by clicking on the Tools
     menu up top and then selecting: Boards \> Boards Manger.
 
-    **\*Note**: In the example screen shot below, support for the 32-bit
-    Arduino ARM cores have already been installed, which is why the
-    Board selections for Arduino Due (Programming Port) and Arduino Due
-    (Native USB Port) are already available.
+<img src="media/image2.png" width="500">
 
-> <img src="media/image0002.png" width="500">
->  
+3.  In the Boards Manager, search for "Arduino SAM Boards". In the "Select version" drop-down menu, choose version 1.6.12 and then click install. Do the same in a search for "Arduino SAMD Boards" and version 1.6.21.
 
-1.  Once the Boards Manager window is open, select the "Arduino SAM
-    Boards (32-bits ARM Cortex-M3) by Arduino" option. In the "Select
-    version" drop-down menu, choose version 1.6.11 and then click
-    install. Once installation is finished, your Boards Manager window
-    should look similar to the screen-shot below.
+<img src="media/image3.png" width="500">
 
-    **\*Note**: This step may be skipped for Mac users
-
-    <img src="media/image0003.png" width="500">
-
-
-2.  After installing the Arduino IDE and setting up the Arduino SAM
-    Boards core support, you can now connect your Haply Development
+4.  After these steps, you can now connect your Haply Development
     Board to the computer using the micro USB cable using the available
-    Native USB port available on the Board.
+    Native USB port available on the Board. Upon plugging in the board, you should see an indication that a board is attached in the tools menu dropdown - something like the image below.
 
-    **\*Note**: For Windows users, connect your Haply Development to the
-    computer using the micro USB cable and proceed to Windows Driver
-    Installation.
+<img src="media/image4.png" width="500">
 
-### Windows Driver Installation (Not needed for Windows 10)
-----------------------------
+Depending on your OS, the ports are named differently -
+Windows: "COM10"  
+Linux: "/dev/ttyUSB0"  
+Mac: "/dev/cu.usbmodem1411"  
 
-1.  After completion of the General Steps on installing the Arduino IDE,
-    setting up the support for the Arduino SAM Boards core, and
-    connecting the Haply Development Board to the computer using the
-    micro USB cable. Open Device Manager on your version of Windows.
+5. Now let's upload, or flash, the Haply firmware onto the board. See below for which firmware to download, based on the board you have.  
+  Haply M0 - Firmware V0_3  
+  Haply M3 - Firmware V1_5  
+  Haply Modular Haptic Development Kit - Firmware V0.4  
 
-2.  In Device Manager, look for the listing "Ports (COM & LPT)" and
-    expand the listing. Depending on varying configurations, you will
-    see "Bossa Programming Port" or "Unknown Device" or something
-    similar. In the screen-shot below, the driver has already been
-    installed, which is why the listing shows up as "Arduino Due
-    (COM18)"
+  [Here's a link to our repository containing the firmware](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions). Note that when you download a firmware folder, you'll see a .ino file, as well as some .h files. These are important for uploading the firmware to your board; don't worry about moving any of these files around when you're flashing the firmware. Simply open the .ino file and click upload. See below for an example with the M0 firmware.
 
-    **\*Note**: It is assumed that you only have one Serial port device
-    connected to your computer, the Haply Development Board during the
-    driver installation.
+<img src="media/image5.png" width="500">  
 
-    <img src="media/image0004.png" width="500">
+6. After the firmware is uploaded, you should see something like this in your Arduino output console.
 
-
-3.  Right click on the listing and select "Update Driver Software"
-
-    <img src="media/image0005.png" width="500">
-
-
-4.  This will open the "Update Driver Software" window, click the option
-    "Browse my computer for driver software."
-
-    <img src="media/image0006.png" width="500">
-
-
-5.  This will bring you to a new window where you can select a specific
-    directory for installation. Click the "Browse" button and navigate
-    to the directory where the Arduino IDE is installed and locate the
-    "drivers" folder. If you performed the default installation, the
-    directory listing should be similar to: C:\\Program Files
-    (x86)\\Arduino\\drivers. Once the directory location has been
-    specified, press the "Next" button to continue. If you are prompted
-    with a warning dialog about the software not passing Windows Logo
-    test click "Continue Anyway" option.
-
-    <img src="media/image0007.png" width="500">
-
-
-6.  Once the drivers have finished installing, you should now see the
-    listing in "Ports (COM & LPT)" be displayed similar to "Arduino Due
-    (COM18)." The COM numbers will change depending on the number of
-    Serial devices that had been connected to your computer previously.
+    <img src="media/image6.png" width="500">
 
 # Installing the Processing IDE
 
-This manual provides a step-by-step guide on installing the Processing
-IDE and all support libraries needed to run a haptic simulation in the
-Processing Environment.
+Now that the Arduino IDE is all setup and the firmware we need is on our board, lets move on to Processing.
 
 1.  Download and install the Processing IDE from the main Processing
     download site: <https://processing.org/download/> for your specific
-    system.
+    system. If you run a 32 or 64-bit machine, it is important that you download the respective version of the software.
 
-    **\*Note**: Processing is built on top of Java, please ensure the
-    bit-version of Processing that you are downloading for your system
-    matches the version of Java you have installed on your machine. If
-    you have a 32-bit version of Java installed, please download and use
-    the appropriate 32-bit version of Processing. If you have a 64-bit
-    version of Java installed match it with the appropriate 64-bit
-    version of Processing. Not doing so will result in simulation slow
-    down's and add to instabilities.
-
-    <img src="media/image001.png" width="500">
+    <img src="media/image7.png" width="500">
 
 
-2.  Once installation has finished please open the Processing IDE.
+# Summary
 
-# Arduino Firmware
+And that's it! By the end of going through this document, you'll have the Arduino IDE up and running, the firmware flashed to your board, and have downloaded the Processing IDE.
 
-
-1.  We will first load the Arduino firmware onto the Haply
-    microcontroller board. The firmware interprets commands sent from
-    the virtual environment on the computer, specifically motor torque
-    outputs, while simultaneously updating the virtual environment on
-    the current state of the device.
-
-2.  Start by plugging in the power supply and connecting the Haply board
-    to the computer through the Arduino Native port using a micro-USB
-    cable.
-
-3.  Open the Arduino sketch containing the appropriate firmware for your      board.  After the
-    sketch is open in the Arduino IDE, select the 'Tools' tab at the top
-    and then select the 'Board' option. Choose the option 'Arduino Due
-    (Native USB Port)' as seen below:
-
-    <img src="media/image006.png" width="500">
-
-
-4.  Next we will specify the port selection so that the Arduino IDE
-    knows which port the Haply Board uses to connect to the computer.
-    Select the 'Tools' tab at the top and then select the 'Port' option.
-    Choose the Port connection option for your Haply Board. Here are
-    some examples of Port options you will see for different operating
-    systems:
-
-    Windows: "COM10"
-
-    Linux: "/dev/ttyUSB0"
-
-    Mac: "/dev/cu.usbmodem1411"
-
-    <img src="media/image007.png" width="500">
-
-
-5.  Finally, we are ready to upload the Haply firmware onto the Haply
-    Board. Press the upload button near the top. This will compile the
-    Arduino program and upload the compiled software onto the Haply
-    Board. Once the upload is finished you should see the following
-    confirmation screen stating that the upload was successful:
-
-    <img src="media/image008.png" width="500">
-
-
-Processing Sketch
-=================
-
-1.  Open up a .pde Processing sketch file from one of the Example projects in the Java repository. Before starting an example, you may
-    need to explicitly specify the Serial USB port that is being used.
-    In the 'setup' portion of the sketch file, find the line defining a
-    new instance of the board object:
-
-    <img src="media/image009.png" width="500">
-
-
-2.  Change the board declaration to the specific Serial USB port used by
-    the Haply Board as determined from the previous section. For
-    different operating systems, this will look something like:
-
-    Windows: haplyBoard = new Board(this, "COM10", 0);
-
-    Linux: haplyBoard = new Board(this, "/dev/ttyUSB0", 0);
-
-    Mac: haplyBoard = new Board(this, "/dev/cu.usbmodem1411", 0);
-
-    To know which port to select, or which number to place in Serial.list()[x] where x is the port declaration, you can run the following line of code to have all possible ports print into the console. Remember that when selecting the port, that counting begins at 0.
-
-    println(Serial.list());
-
-Haptic Simulation
-=================
-
-1.  Once the Arduino Firmware has been loaded onto the Haply Board, and
-    the needed Serial USB port change has been made to the Processing
-    sketch, you are ready to start the Haptic Simulation. Before
-    starting, make sure the Haply device is in the initial starting
-    position:
-
-    <img src="media/image010.JPG" width="500">
-
-
-2.  Now click the Run button on the Processing sketch to start the
-    haptic simulation. In this example we are running a basic virtual
-    wall simulation (Hello Wall):
-
-    <img src="media/image011.png" width="500">
-
+In the next part of Getting Started, we'll use the flashed board alongside Processing to run our first haptic demo!
 
 
 			The Haply project is intended to provide novice designers and developers
