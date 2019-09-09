@@ -46,7 +46,7 @@ Once I have my COM port assignment complete, there's one small step and we're go
 
 Each time a Processing sketch is run, Processing will take a look at where the Haplet's end effector is and take that as the initial position. So that the position of the end effector matches where the avatar (the in-screen object controlled by the Haplet) is in the sketch, I need to make sure that the initial position of my end effector in the real world is where it should be - right in the middle.
 
-<img src="media/image1.JPG" width="500">
+<img src="Media/image1.JPG" width="500">
 
 Ensure that the end effector is in this position each time you run you're sketch, and you'll be all set to run your first haptic demo!
 
