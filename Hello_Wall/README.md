@@ -1,6 +1,6 @@
 # Hello Wall
 
-You've assembled the hardware of your Haplet, you've setup the Arduino IDE, and you've downloaded Processing. Great Job!
+You've assembled the hardware of your Haplet, you've setup the Arduino IDE, and you've downloaded Processing. Great job!
 
 Strap in, now it gets to the fun stuff; we're going to take you step by step through your first haptic demo. After completing these you'll know how to download the demos we have in our other repositories, and even begin to make your own demos.
 
@@ -27,6 +27,7 @@ This line is assigning the 0th item on the list created by ``Serial.list`` as th
 
 Notice that on line 108 the following line is written -  
 ``  println(Serial.list());``  
+
 This statement, ``println`` tells Processing to print whatever is in the brackets to the output console. In this case, we're printing the list of all possible COM ports.
 
 4. Run the sketch, and even though the environment won't be created you'll get an output in your console from the ``println`` command. When I run this code, I get this -  
@@ -73,4 +74,4 @@ In ``setup()`` line 126 we follow the FBox documentation (linked above) to creat
 ``wall.setStatic(true);`` Defines the wall as static, meaning that it will not move.  
 ``world.add(wall);`` Adds the wall to the world object; without this the wall will not appear in the sketch.  
 
-The code above edits attributes which have default values as defined in the documentation. To see these values, click on the drop box under "Protected Attributes" in the documentation. Feel free to experiment with these values and see how they change the properties of the FBox! Documentation on each function can also be found, with correct syntax as well as with which objects they can be used.
+The code above edits attributes which have default values as defined in the documentation. To see these values, click on the drop box under "Protected Attributes" in the documentation. Feel free to experiment with these values and see how they change the properties of the FBox! You'll also find documentation on each function, with correct syntax as well as with which objects they can be used.
