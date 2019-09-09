@@ -10,7 +10,7 @@ This repository will take you from receiving your Haply kit to building and runn
 
 If this is your first time working with Github, the best way to work with this (or any) repository is to go up to the Big Green "Clone or Download" button, and download this entire repository as a .zip file. That way you'll have all the files you need for the lesson already downloaded. You can still view this README file through your browser, or in a text editor on your computer.
 
-The first three sections are subfolders in this repository; FAQ and What Next are written below in this README file.
+The first three sections are subfolders in this repository; FAQ and What Next are written below in this README file.  
 __*** If you have any questions or feedback throughout your quest through this repository, reach us at info@haply.co__
 
 ## 1,2,3 Let's Get Started!
