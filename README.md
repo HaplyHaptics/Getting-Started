@@ -2,15 +2,15 @@
 
 This repository will take you from receiving your Haply kit to building and running your first haptic demo and beyond. We'll use the following order  -
 
-1. The Haply Development Kit - Hardware assembly
-2. Software Setup - Downloading and configuring all the needed software
-3. Hello Wall -  Your first haptic demo
+1. Haply Development Kit hardware assembly
+2. Downloading and configuring the necessary software
+3. Running your first haptic demo - Hello Wall
 4. FAQ - Questions we get asked a lot. If you have any we want to hear them!
 5. What Next? - Exploring other repositories
 
 If this is your first time working with Github, the best way to work with this (or any) repository is to go up to the Big Green "Clone or Download" button, and download this entire repository as a .zip file. That way you'll have all the files you need for the lesson already downloaded. You can still view this README file through your browser, or in a text editor on your computer.
 
-The first three sections are subfolders in this repository; FAQ and What Next are written below in this README file.  
+Hardware Setup, Software Setup, and Hello Wall are subfolders in this repository; FAQ and What Next are written below in this README file.  
 __*** If you have any questions or feedback throughout your quest through this repository, reach us at info@haply.co__
 
 ## 1,2,3 Let's Get Started!
@@ -44,7 +44,7 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
 
 #### Software
 
-  - Q: When I try to run a sketch in Processing I get a "COM PORT NOT ASSIGNED" error, nothing I just see a gray screen, or the sketch runs but when I move my Haplet nothing happens.  How do I fix this?  
+  - Q: When I try to run a sketch in Processing I get a: "COM PORT NOT ASSIGNED" error, I just see a gray screen, or the sketch runs but when I move my Haplet nothing happens.  How do I fix this?  
 
     A: The COM port is not assigned correctly! You'll have to look at the COM port assignment with the Processing sketch. See the Hello_Wall example "Setting up the Sketch" section for how to do this!
 
@@ -54,11 +54,11 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
 
   - Q: When I move my device the end effector starts to shake around a lot! What's happening?  
 
-    A: It is likely that either the stiffness is too high or the dampening of the avatar is too low! See the [Haply documentation on the avatar virtual coupling](https://haphub.github.io/hAPI_Fisica/class_h_virtual_coupling.html) to try to lower or raise coupling stiffness or damping values
+    A: It is likely that either the stiffness is too high or the dampening of the avatar is too low! See the [Haply documentation on the avatar virtual coupling](https://haphub.github.io/hAPI_Fisica/class_h_virtual_coupling.html) to try to lower or raise coupling stiffness or damping values.
 
   - Q: My device isn't working and I checked all the questions above! What now?  
 
     A: Try a full device reset; it happens from time to time that a full power cycle is the solution. Re-flash the Haply board, close and re-open Processing, and if that doesn't work try restarting the computer. If that doesn't work, send us your code and we'll have a look at it!
 
 ### 5. What Next?
-You've finished the introduction to the Haplet! Congratulations. If you're still getting to know the Haplet and haptics, we recommend you have a look at the demos in the [Java API](https://github.com/HaplyHaptics/Haply-API-Java). If you're a more experienced user and know what you are looking for, go back to our [Home Page](https://github.com/HaplyHaptics)) and poke around some of our other repositories. Let us know if you have any questions/ concerns/ ideas, and happy Hapletting!
+You've finished the introduction to the Haplet! Congratulations. If you're still getting to know the Haplet and haptics, we recommend you have a look at the demos in the [Java API](https://github.com/HaplyHaptics/Haply-API-Java). If you're a more experienced user and know what you are looking for, go back to our [Home Page](https://github.com/HaplyHaptics) and poke around some of our other repositories. Let us know if you have any questions/ concerns/ ideas, and happy Hapletting!
