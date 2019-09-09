@@ -19,7 +19,7 @@ The first three sections are subfolders in this repository; FAQ and What Next ar
 If you're looking at this in a browser, click a link to go to the subfolder. If you're reading this in a text file on your computer, navigate to the subfolder through your file manager to see the lesson. You'll find another README in each subfolder.
 1. [The Haply Development Kit](/The-Haply-Development-Kit) - Hardware Kit
 2. [Software Setup](/Software-Setup) - Instructions and links for installing the Arduino IDE and Processing
-3. [Hello Wall](/Hello-Wall) - Running your first Haptic Demo
+3. [Hello Wall](/Hello_Wall) - Running your first Haptic Demo
 
 
 ### 4. FAQ
