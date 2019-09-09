@@ -46,7 +46,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 • 1x 3D Printed Motor Stand  
 • 1x Screw Set  
 
-** Depending on when you ordered your kit, these two components will already be attached
+** Depending on when you ordered your kit, these two components will already be attached together
 
 Haply Board
 =================================
