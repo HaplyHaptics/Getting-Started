@@ -20,7 +20,7 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
 3. [Hello Wall](/Hello_Wall) - Running your first Haptic Demo
 
 
-### 4. FAQ
+## FAQ
 #### Hardware
   - Q: When I run my demo, I don't feel any force feedback. What do I do?  
 
@@ -60,5 +60,5 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
 
     A: Try a full device reset; it happens from time to time that a full power cycle is the solution. Re-flash the Haply board, close and re-open Processing, and if that doesn't work try restarting the computer. If that doesn't work, send us your code and we'll have a look at it!
 
-### 5. What Next?
+## What Next?
 You've finished the introduction to the Haplet! Congratulations. If you're still getting to know the Haplet and haptics, we recommend you have a look at the demos in the [Java API](https://github.com/HaplyHaptics/Haply-API-Java). If you're a more experienced user and know what you are looking for, go back to our [Home Page](https://github.com/HaplyHaptics) and poke around some of our other repositories. Let us know if you have any questions/ concerns/ ideas, and happy Hapletting!
