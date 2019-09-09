@@ -1,7 +1,5 @@
 # Getting Started
 
-Your first place to look after receiving your Haply Kit!
-
 This repository will take you from receiving your Haply kit to building and running your first haptic demo and beyond. We'll use the following order  -
 
 1. The Haply Development Kit - Hardware assembly
@@ -10,11 +8,11 @@ This repository will take you from receiving your Haply kit to building and runn
 4. FAQ - Questions we get asked a lot. If you have any we want to hear them!
 5. What Next? - Exploring other repositories
 
-__*** If you have any questions or feedback throughout your quest through this repository, reach us at info@haply.co__
-
 If this is your first time working with Github, the best way to work with this (or any) repository is to go up to the Big Green "Clone or Download" button, and download this entire repository as a .zip file. That way you'll have all the files you need for the lesson already downloaded. You can still view this README file through your browser, or in a text editor on your computer.
 
 The first three sections are subfolders in this repository; FAQ and What Next are written below in this README file.
+__*** If you have any questions or feedback throughout your quest through this repository, reach us at info@haply.co__
+
 ## 1,2,3 Let's Get Started!
 If you're looking at this in a browser, click a link to go to the subfolder. If you're reading this in a text file on your computer, navigate to the subfolder through your file manager to see the lesson. You'll find another README in each subfolder.
 1. [The Haply Development Kit](/The-Haply-Development-Kit) - Hardware Kit
