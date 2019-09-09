@@ -25,15 +25,15 @@ Here we'll take you through the software that you'll use with the Haply Developm
 <img src="media/image3.png" width="500">
 
 4.  After these steps, you can now connect your Haply Development
-    Board to the computer using the micro USB cable using the available
+    Board to the computer using the micro USB cable and the available
     Native USB port available on the Board. Upon plugging in the board, you should see an indication that a board is attached in the tools menu dropdown - something like the image below.
 
 <img src="media/image4.png" width="500">
 
-Depending on your OS, the ports are named differently -
-Windows: "COM10"  
-Linux: "/dev/ttyUSB0"  
-Mac: "/dev/cu.usbmodem1411"  
+   Depending on your OS, the ports are named differently -
+   Windows: "COM10"  
+   Linux: "/dev/ttyUSB0"  
+   Mac: "/dev/cu.usbmodem1411"  
 
 5. Now let's upload, or flash, the Haply firmware onto the board. See below for which firmware to download, based on the board you have.  
   Haply M0 - Firmware V0_3  
