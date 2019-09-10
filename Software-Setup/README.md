@@ -20,33 +20,39 @@ Here we'll take you through the software that you'll use with the Haply Developm
 
 <img src="media/image2.png" width="500">
 
-3.  In the Boards Manager, search for "Arduino SAM Boards". In the "Select version" drop-down menu, choose version 1.6.12 and then click install. Do the same in a search for "Arduino SAMD Boards" and version 1.6.21.
+3.  In the Boards Manager, search for "Arduino SAM Boards". In the "Select version" drop-down menu, choose version 1.6.12 and then click install. Do the same in a search for "Arduino SAMD Boards" and version 1.6.21. Note that these aren't the latest versions of the package.
 
 <img src="media/image3.png" width="500">
 
-4.  After these steps, you can now connect your Haply Development
+4.  The only other thing we'll need to add to the IDE are the Encoder and PWM libraries. To save you in your search for these libraries, we've added them in this [repository](/libraries). Navigate to "Add .Zip Library" in the Sketch menu to include these libraries.
+
+<img src="media/image4.png" width="500">
+
+If you're curious about what these libraries do, you can read up on [encoders](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/) and [PWM](https://www.kompulsa.com/introduction-pwm-pulse-width-modulation-works/) to learn more.
+
+5.  After these steps, you can now connect your Haply Development
     Board to the computer using the micro USB cable and the available
     Native USB port available on the Board. Upon plugging in the board, you should see an indication that a board is attached in the tools menu dropdown - something like the image below.
 
-<img src="media/image4.png" width="500">
+<img src="media/image5.png" width="500">
 
    Depending on your OS, the ports are named differently -
    Windows: "COM10"  
    Linux: "/dev/ttyUSB0"  
    Mac: "/dev/cu.usbmodem1411"  
 
-5. Now let's upload, or flash, the Haply firmware onto the board. See below for which firmware to download, based on the board you have.  
+6. Now let's upload, or flash, the Haply firmware onto the board. See below for which firmware to download, based on the board you have.  
   Haply M0 - Firmware V0_3  
   Haply M3 - Firmware V1_5  
   Haply Modular Haptic Development Kit - Firmware V0.4  
 
   [Here's a link to our repository containing the firmware](https://github.com/HaplyHaptics/Haply-Arduino-Firmware-Versions). Note that when you download a firmware folder, you'll see a .ino file, as well as some .h files. These are important for uploading the firmware to your board; don't worry about moving any of these files around when you're flashing the firmware. Simply open the .ino file and click upload. See below for an example with the M0 firmware.
 
-<img src="media/image5.png" width="500">  
+<img src="media/image6.png" width="500">  
 
-6. After the firmware is uploaded, you should see something like this in your Arduino output console.
+7. After the firmware is uploaded, you should see something like this in your Arduino output console.
 
-    <img src="media/image6.png" width="500">
+    <img src="media/image7.png" width="500">
 
 # Installing the Processing IDE
 
@@ -56,7 +62,7 @@ Now that the Arduino IDE is all setup and the firmware we need is on our board, 
     download site: <https://processing.org/download/> for your specific
     system. If you run a 32 or 64-bit machine, it is important that you download the respective version of the software.
 
-    <img src="media/image7.png" width="500">
+    <img src="media/image8.png" width="500">
 
 
 # Summary

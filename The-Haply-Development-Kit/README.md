@@ -26,7 +26,7 @@ their own unique designs ranging from 1-degree-of-freedom to
 
 ## Kit Contents
 
-• 1x Acrylic Plate**    
+• 1x Acrylic Plate**  
 • 2x Acrylic L2 Arm Linkages  
 • 1x Board Case Bottom  
 • 1x Board Case Top  
@@ -156,12 +156,11 @@ Please peel off all protective plastics on the acrylic pieces, and
 attach the acrylic plate to the 1x 3D printed Base with 3x
 2-56 screws using the appropriate Allen key.
 
-***Warning: Take care not to over tighten screws**
+***Warning: Take care not to over tighten screws***
 
 <img src="media/image001b.JPG" width="600">
 
-  ------------------------------------------------------------------------------------ -----------------------------------------------------------------------------------     
-
+---
 
 ## Part A: Motor Housing Assembly
 
@@ -318,9 +317,10 @@ finally screw in the end-effector screw to complete this section.
 
 *** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
 
-<img src="media/image023a.JPG" height="300">  <img src="media/image025a.JPG" height="300">
+<img src="media/image023a.JPG" height="300">  
+<img src="media/image025a.JPG" height="300">
 
------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------
+------
 
 ## Part G: Base Plate Assembly
 
