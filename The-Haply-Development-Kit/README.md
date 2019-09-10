@@ -258,7 +258,7 @@ attach the acrylic plate to the 1x 3D printed Base with 3x
 3. On the opposite side of the assembly, place the L1 arm under the L2 arm so that the end of one L2 arm linkage is below the other. This will allow for mounting of the end effector.
 
 
-<img src="media/image015.jpg" width="400">   <img src="media/image016.jpg" width="400">
+<img src="media/image015.jpg" width="400"><img src="media/image016.jpg" width="400">
 
 1.  Place the end-effector cap into the top L2 arm linkage, sandwich the
 end-effector handle washer between the two L2 arm linkages and
@@ -317,7 +317,7 @@ finally screw in the end-effector screw to complete this section.
 
 *** If you ordered an M0 board, assemble as seen below. You'll only need one 2-56 screw.
 
-<img src="media/image023a.JPG" height="300"> <img src="media/image025a.JPG" height="300">
+<img src="media/image023a.JPG" width="400"> <img src="media/image025a.JPG" width="400">
 
 ------
 
