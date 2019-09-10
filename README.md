@@ -26,7 +26,7 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
 
     A: Check power! If your demo is running (i.e. you can see the sketch working on screen), but aren't feeling any force it is likely that the motors aren't supplied with power to put out any force. So check the power connection to the motors - power should run from a wall outlet to the 12V power adaptor on the board.
 
-  - Q: It seems like one of the arms on my Haplet isn't working, like when I move it the on-screen avatar doesn't move. What's wrong with my device?
+  - Q: It seems like one of the arms on my Haplet isn't working! When I move it the on-screen avatar doesn't move, or the avatar only moves on a diagonal. What's wrong with my device?
 
     A: The arms of the Haplet could possible come a little bit loose - but fear not! We supply a small Allen Key in the kit - it will fit right into the set screw at the base of the motors where the 3D printed arms attach. Make sure the arms are all lined up, and tighten them. Be sure not to overtighten!  
 
