@@ -24,7 +24,7 @@ Here we'll take you through the software that you'll use with the Haply Developm
 
 <img src="media/image3.png" width="500">
 
-4.  The only other thing we'll need to add to the IDE are the Encoder and PWM libraries. To save you in your search for these libraries, we've added them in this [repository](/libraries). Navigate to "Add .Zip Library" in the Sketch menu to include these libraries.
+4.  The only other thing we'll need to add to the IDE are the Encoder and PWM libraries. To save you in your search for these libraries, we've added them in this [repository](./libraries). Navigate to "Add .Zip Library" in the Sketch menu to include these libraries.
 
 <img src="media/image4.png" width="500">
 
