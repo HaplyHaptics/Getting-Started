@@ -24,11 +24,11 @@ Here we'll take you through the software that you'll use with the Haply Developm
 
 <img src="media/image3.png" width="500">
 
-4.  The only other thing we'll need to add to the IDE are the Encoder and PWM libraries. To save you in your search for these libraries, we've added them in this [repository](./libraries). Navigate to "Add .Zip Library" in the Sketch menu to include these libraries.
+4.  The only other thing we'll need to add to the IDE are the Encoder and PWM libraries. To save you in your search for these libraries, we've added them in [here](./libraries). Download both the PWM and Encoder libraries to your computer. Then, navigate to "Add .Zip Library" in the Sketch menu to include these libraries.
 
 <img src="media/image4.png" width="500">
 
-If you're curious about what these libraries do, you can read up on [encoders](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/) and [PWM](https://www.kompulsa.com/introduction-pwm-pulse-width-modulation-works/) to learn more.
+*(If you're curious about what these libraries do, you can read up on [encoders](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/) and [PWM](https://www.kompulsa.com/introduction-pwm-pulse-width-modulation-works/) to learn more.)*
 
 5.  After these steps, you can now connect your Haply Development
     Board to the computer using the micro USB cable and the available
