@@ -43,6 +43,9 @@ If you're looking at this in a browser, click a link to go to the subfolder. If 
     A: If one of the 3D printed parts is broken, contact us - we'll send you the .stl file so that you can reprint it! If another part broke or you don't have access to a 3D printer, contact us and we'll send you a replacement part.
 
 #### Software
+  - Q: How can I be sure the my board is being read?
+  
+    A: In the arduino IDE, under tools, navigate to "Get Board Info". If the IDE reads a board, it will be shown here! Note that M0 Boards are considered "Arduino/ Genuino Zero" Boards, and M3 and Dev boards are considered "Arduino Due" boards. (Due is pronounced "doo-way").
 
   - Q: When I try to run a sketch in Processing I get a: "COM PORT NOT ASSIGNED" error, I just see a gray screen, or the sketch runs but when I move my Haplet nothing happens.  How do I fix this?  
 
