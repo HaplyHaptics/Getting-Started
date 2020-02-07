@@ -58,10 +58,10 @@ Haply Board
 The Haply board is a highly robust and configurable open-source
 platform ideal for haptic and robotic development.
 
-Based on the Arduino framework, both Haply boards use the  32-bit AT91SAM3X8E
-ARM microcontroller as their core. Side rail pin connections are
-maintained giving the Haply board compatibility to a majority of
-available Arduino Shields.
+Based on the Arduino framework, The Haply M0 is based on the 32-bit 
+ATSAMD21G18 ARM microcontroller and the Haply M3 is based on the 
+32-bit AT91SAM3X8E ARM microcontroller as their cores. Both boards 
+version have a set of side rail pin connections for expanded functionality.
 
 L298P Motor drivers are incorporated into the board, allowing the
 Haply board the ability to precisely control up to four DC
